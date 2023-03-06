@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+.App {
+  text-align: center;
+}
+
+
+#root{
+  background-color: #222222;
+  min-height: 100vh;
+  color: #F3EFE0;
+  font-family: 'Rubik', sans-serif;
+  font-size: 2rem;
+}
+
+
+
+
+.custom-table tr{
+  border: 1px solid #5D3FD3 ;
+  border-radius: 5px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  transition: all .2s ease-in-out;
+  box-shadow: -1px 9px 16px -3px rgba(93,63,211,0.75);
+}
+.custom-table tr:hover{
+  color:#222222; 
+  background-color:#F3EFE0; 
+  transform: scale(1.1);
+  
+}
+
+.custom-table{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  /* gap: 2rem; */
+  max-width: 600px;
+  margin: 0 auto;
+ 
+ 
+}
+thead{
+  width: 100%;
+}
+.custom-table-header{
+  display: flex;
+  justify-content: space-between;
+
+align-items: center;
+
+}
+.custom-table-body{
+
+
+width: 100%;
+}
+.custom-table-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  cursor: pointer; 
+
+}
+td{
+  width: 100%;
+}
+th{
+  width: 100%;
+  text-align: center;
+}
+
+.container-coins{
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+ 
+}
+.custom-single-coin:hover{
+  color:#222222; 
+  background-color:#F3EFE0; 
+  
+  cursor: pointer;
+}
+.image{
+  display: block;
+  width: 100%;
+}
+
+.custom-single-coin{
+  max-width: 800px;
+  margin: 0 auto; 
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid #5D3FD3;
+  padding: 2rem;
+  /* line-height: 2.5rem; */
+  min-height: 80vh;
+ 
+  box-shadow: -1px 9px 16px -3px rgba(93,63,211,0.75);
+}
+
+ul li{
+max-width: 400px;
+margin: 0 auto;
+ 
+}
+
+.social-box{
+  display: flex;
+  gap: 1rem;
+  text-align: start;
+}
+
+.green{
+  color: green;
+ 
+}
+
+.red{
+  color:red;
+
+}
+
+.custom-button{
+  padding: 0.8rem;
+  border-radius: 5px;
+  background-color: #F3EFE0;
+  color: #5D3FD3;
+  border: none;
+  margin: 1rem;
+  
+}
+
+.custom-button:hover{
+  
+  color: #222222;
+}
+
+
